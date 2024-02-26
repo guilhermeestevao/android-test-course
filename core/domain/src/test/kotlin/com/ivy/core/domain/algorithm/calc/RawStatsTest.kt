@@ -12,7 +12,7 @@ import java.time.Instant
 internal class RawStatsTest {
 
     @Test
-    fun `Test creating raw stats from transactions`() {
+    fun `Creating raw stats from transactions`() {
 
         val tenSecondsAgo = Instant.now().minusSeconds(10)
         val fiveSecondsAgo = Instant.now().minusSeconds(5)
